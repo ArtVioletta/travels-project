@@ -1,0 +1,24 @@
+
+
+.nav-element {
+  margin-right: 51px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+
+}
+
+h1, p {
+  margin:0
+}
+
+body{
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  display: block;
+
+}
+
