@@ -1,217 +1,212 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .header {
-  padding-top: 20px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  width: 1200px;
-  margin: auto;
-  justify-content: space-between;
+    padding-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
 }
 
 nav.navigation {
-  width: max-content;
-  height: auto;
+    width: max-content;
+    height: auto;
 }
 
-.photo1{
-  background-image: url("./components/images/Rectangle1.png");
-  display: block;
-  position: relative;
-  width: 100vw;
-  height: 708px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.photo1 {
+    background-image: url("./components/images/Rectangle1.png");
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 708px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.button{
-  width: 209px;
-  height: 55px;
-  background: #FF3465;
-  border-radius: 10px;
-  padding: 16px 48px;
+.button {
+    width: 209px;
+    height: 55px;
+    background: #ff3465;
+    border-radius: 10px;
+    padding: 16px 48px;
 }
 
-.screen{
-  margin-top: 14%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.screen {
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
-  font-size: 50px;
-  text-align: center;
-  color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
 }
 
-.text1{
-  color:white;
-  width: 462px;
-  margin-bottom: 50px;
-  font-size: 17px;
-  line-height: 22px;
-}
-.supportContainer{
-  color:white;
-  display: flex;
-  align-items: center;
-}
-.support{
-  margin-left: 30px;
-  border-radius: 4px;
-  padding: 8px 28px ;
-  display:flex;
-  border: 1px solid #C4C4C4;
-  background-color: transparent;
-  text-align: center;
-  position: static;
+.text1 {
+    color: white;
+    width: 462px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 22px;
 }
 
-.content2{
-  width: 100%;
-  height: 49px;
-  font-size: 20px;
-  text-align: center;
+.supportContainer {
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-.card{
-  width: 20%;
-  border-radius: 20px !important;
-  margin-right: 30px;
+.support {
+    margin-left: 30px;
+    border-radius: 4px;
+    padding: 8px 28px;
+    display: flex;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    text-align: center;
+    position: static;
 }
-.card:last-child{
-  width: 20%;
-  border-radius: 20px;
-  margin-right: 0;
+
+.content2 {
+    width: 100%;
+    height: 49px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 20%;
+    border-radius: 20px !important;
+    margin-right: 30px;
+}
+
+.card:last-child {
+    width: 20%;
+    border-radius: 20px;
+    margin-right: 0;
 }
 
 .cardWrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-.cardImage{
-  width: 50%;
-  height: 50%;
-
+.cardImage {
+    width: 50%;
+    height: 50%;
 }
 
 .supportSecond {
-  margin-left: 30px;
-  border-radius: 10px;
-  padding: 18px 35px;
-  width: 15%;
-  height: 5%;
-  border: 2px solid #FF3465;
-  background-color: white;
-  text-align: center;
-  justify-content: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 18px 35px;
+    width: 15%;
+    height: 5%;
+    border: 2px solid #ff3465;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
 }
 
-.content3{
-  width: 100%;
-  height: 100%;
-  font-size: 20px;
-  text-align: center;
-}
-.content4{
-  width: 100%;
-  height: 100%;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-}
-.about{
-  margin-left: 25%;
-  width: 80%;
-  border-radius: 10px;
+.content3 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
 }
 
-.contentWrapper{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+.content4 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about {
+    margin-left: 25%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.contentWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .contentWrapper div p {
-  text-align: start;
+    text-align: start;
 }
 
-.supportForm{
-  width: 601px;
-  height: max-content;
-  border-radius: 20px;
-  padding: 63px 64px ;
-  display:flex;
-  flex-direction: column;
-  border: 1px solid #C4C4C4;
-  background-color: transparent;
-  box-sizing: border-box;
-  align-items: center;
+.supportForm {
+    width: 601px;
+    height: max-content;
+    border-radius: 20px;
+    padding: 63px 64px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .cardForm {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .inputsWrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: max-content;
-  margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 10px;
 }
 
 .input {
-  border-radius: 4px;
-  padding: 22px 24px ;
-  border: 1px solid #C4C4C4;
-  background-color: transparent;
-  display: flex;
+    border-radius: 4px;
+    padding: 22px 24px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    display: flex;
 }
 
 .input:not(:last-of-type) {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .formTitle {
-  margin-bottom: 44px;
-  text-align: center;
-  margin-top: unset;
-  max-width: 330px;
+    margin-bottom: 44px;
+    text-align: center;
+    margin-top: unset;
+    max-width: 330px;
 }
 
-.buttonAplly{
-  padding: 22px 24px ;
-  width: 100%;
-  height: max-content;
-  background: #FF3465;
-  color:white;
-  border-radius: 10px;
-  box-sizing: border-box;
+.buttonAplly {
+    padding: 22px 24px;
+    width: 100%;
+    height: max-content;
+    background: #ff3465;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .planeImg {
-  width: 145px;
-  height: auto;
+    width: 145px;
+    height: auto;
 }
-
-
-
-
-
-
-
-
-
